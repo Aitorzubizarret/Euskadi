@@ -13,6 +13,7 @@
 		1A1FDD2724F85A820094EFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2524F85A820094EFBE /* Main.storyboard */; };
 		1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2824F85A840094EFBE /* Assets.xcassets */; };
 		1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */; };
+		1A1FDD3424F85B480094EFBE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD3324F85B480094EFBE /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A1FDD2824F85A840094EFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1FDD2B24F85A840094EFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1FDD2D24F85A840094EFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1FDD3324F85B480094EFBE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		1A1FDD1324F85A810094EFBE = {
 			isa = PBXGroup;
 			children = (
+				1A1FDD3324F85B480094EFBE /* .gitignore */,
 				1A1FDD1E24F85A810094EFBE /* Euskadi */,
 				1A1FDD1D24F85A810094EFBE /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1FDD3424F85B480094EFBE /* .gitignore in Resources */,
 				1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */,
 				1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */,
 				1A1FDD2724F85A820094EFBE /* Main.storyboard in Resources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9WUS7ZBGW;
 				INFOPLIST_FILE = Euskadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.Euskadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9WUS7ZBGW;
 				INFOPLIST_FILE = Euskadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.Euskadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
