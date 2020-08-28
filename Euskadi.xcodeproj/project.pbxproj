@@ -26,6 +26,7 @@
 		1A1FDD2B24F85A840094EFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1FDD2D24F85A840094EFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1FDD3324F85B480094EFBE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1A1FDD3524F908400094EFBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		1A1FDD1324F85A810094EFBE = {
 			isa = PBXGroup;
 			children = (
+				1A1FDD3524F908400094EFBE /* README.md */,
 				1A1FDD3324F85B480094EFBE /* .gitignore */,
 				1A1FDD1E24F85A810094EFBE /* Euskadi */,
 				1A1FDD1D24F85A810094EFBE /* Products */,
