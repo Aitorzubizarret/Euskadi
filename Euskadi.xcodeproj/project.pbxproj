@@ -14,6 +14,7 @@
 		1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2824F85A840094EFBE /* Assets.xcassets */; };
 		1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */; };
 		1A1FDD3424F85B480094EFBE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD3324F85B480094EFBE /* .gitignore */; };
+		1AD398AD251E92C900922ED9 /* towns.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD398AC251E92C900922ED9 /* towns.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1A1FDD2D24F85A840094EFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1FDD3324F85B480094EFBE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1A1FDD3524F908400094EFBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AD398AC251E92C900922ED9 /* towns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = towns.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				1A1FDD2824F85A840094EFBE /* Assets.xcassets */,
 				1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */,
 				1A1FDD2D24F85A840094EFBE /* Info.plist */,
+				1AD398AC251E92C900922ED9 /* towns.json */,
 			);
 			path = Euskadi;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */,
 				1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */,
 				1A1FDD2724F85A820094EFBE /* Main.storyboard in Resources */,
+				1AD398AD251E92C900922ED9 /* towns.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
