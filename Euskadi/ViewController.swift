@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // Reads the 'towns' JSON file.
+        jsonReader(filename: "towns") { (success, data) in
+            DispatchQueue.main.async {
+                if success, let receivedData = data {
+                    print(receivedData)
+                }
+            }
+        }
     }
 
 }
