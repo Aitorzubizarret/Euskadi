@@ -18,6 +18,7 @@
 		1AD398B4251FEB6F00922ED9 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B3251FEB6F00922ED9 /* Province.swift */; };
 		1AD398B7251FEC4E00922ED9 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B6251FEC4E00922ED9 /* JSONReader.swift */; };
 		1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B8251FEE6400922ED9 /* Provinces.swift */; };
+		1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398BC2520C2A900922ED9 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1AD398B3251FEB6F00922ED9 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
 		1AD398B6251FEC4E00922ED9 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
 		1AD398B8251FEE6400922ED9 /* Provinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provinces.swift; sourceTree = "<group>"; };
+		1AD398BC2520C2A900922ED9 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */,
 				1A1FDD2D24F85A840094EFBE /* Info.plist */,
 				1AD398AC251E92C900922ED9 /* towns.json */,
+				1AD398BC2520C2A900922ED9 /* TableView.swift */,
 			);
 			path = Euskadi;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */,
 				1A1FDD2424F85A820094EFBE /* ViewController.swift in Sources */,
 				1A1FDD2024F85A810094EFBE /* AppDelegate.swift in Sources */,
+				1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */,
 				1A1FDD2224F85A820094EFBE /* SceneDelegate.swift in Sources */,
 				1AD398B7251FEC4E00922ED9 /* JSONReader.swift in Sources */,
 				1AD398B4251FEB6F00922ED9 /* Province.swift in Sources */,

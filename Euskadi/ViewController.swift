@@ -10,19 +10,51 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Properties
+    var townsTableView: TableView?
+    var townsLocalData: Provinces? {
+        didSet {
+            self.addTownsTableView(data: self.townsLocalData!)
+        }
+    }
+    
+    // MARK: - Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        // Reads the 'towns' JSON file.
+        self.getTownsLocalData()
+        
+    }
+    
+    ///
+    /// Reads the local 'towns' JSON file and saves the data in 'townsLocalData'.
+    ///
+    private func getTownsLocalData() {
         jsonReader(filename: "towns") { (success, data) in
             DispatchQueue.main.async {
                 if success, let receivedData = data {
-                    print(receivedData)
+                    self.townsLocalData = receivedData
                 }
             }
         }
     }
+    
+    ///
+    /// Adds the TableViews view to our view.
+    ///
+    private func addTownsTableView(data: Provinces) {
+        
+        // Creates the Object.
+        self.townsTableView = TableView()
+        
+        // Sends the data to the object.
+        self.townsTableView?.townsData = data
+        
+        // Checks if we have created the object.
+        guard let table = self.townsTableView else { return }
+        
+        // Adds the view received from the object TableView.
+        self.view.addSubview(table.getTableView(size: self.view.bounds))
+    }
 
 }
-
