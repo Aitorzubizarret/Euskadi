@@ -86,7 +86,7 @@ extension TableView: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellName, for: indexPath)
         if let data = self.townsData {
-            cellText = data.provinces[indexPath.section].towns[indexPath.row]
+            cellText = data.provinces[indexPath.section].towns[indexPath.row].name
         }
         cell.textLabel?.text = cellText
         return cell
