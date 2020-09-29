@@ -76,9 +76,9 @@
 				1AD398C025214E3600922ED9 /* LocalData */,
 				1AD398B5251FEC2F00922ED9 /* Utils */,
 				1AD398B0251FEB2A00922ED9 /* Models */,
+				1AE00DE92523D77800C5EA91 /* Controllers */,
 				1A1FDD1F24F85A810094EFBE /* AppDelegate.swift */,
 				1A1FDD2124F85A810094EFBE /* SceneDelegate.swift */,
-				1A1FDD2324F85A820094EFBE /* ViewController.swift */,
 				1AD398BC2520C2A900922ED9 /* TableView.swift */,
 				1A1FDD2524F85A820094EFBE /* Main.storyboard */,
 				1A1FDD2824F85A840094EFBE /* Assets.xcassets */,
@@ -112,6 +112,14 @@
 				1AD398AC251E92C900922ED9 /* towns.json */,
 			);
 			path = LocalData;
+			sourceTree = "<group>";
+		};
+		1AE00DE92523D77800C5EA91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A1FDD2324F85A820094EFBE /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
