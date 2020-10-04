@@ -9,7 +9,7 @@
 import Foundation
 
 struct Town: Codable {
-    let postalCode: [Int]
+    let postalCode: [String]
     let name: String
     let locationLat: Double
     let locationLng: Double
