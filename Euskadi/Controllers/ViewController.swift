@@ -22,6 +22,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Navigation bar title.
+        self.title = "Euskadi"
+        
         self.getTownsLocalData()
         
     }
