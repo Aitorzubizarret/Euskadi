@@ -23,11 +23,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window?.windowScene = windowScene
-        window?.makeKeyAndVisible()
         
         let viewController = TownsListViewController()
         let navigation = UINavigationController(rootViewController: viewController)
         window?.rootViewController = navigation
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
