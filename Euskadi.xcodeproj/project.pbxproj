@@ -14,6 +14,7 @@
 		1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2824F85A840094EFBE /* Assets.xcassets */; };
 		1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */; };
 		1A1FDD3424F85B480094EFBE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD3324F85B480094EFBE /* .gitignore */; };
+		1A9492C925308459006A9E60 /* TownsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9492C825308459006A9E60 /* TownsViewModel.swift */; };
 		1AD398AD251E92C900922ED9 /* towns.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD398AC251E92C900922ED9 /* towns.json */; };
 		1AD398B4251FEB6F00922ED9 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B3251FEB6F00922ED9 /* Province.swift */; };
 		1AD398B7251FEC4E00922ED9 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B6251FEC4E00922ED9 /* JSONReader.swift */; };
@@ -33,6 +34,7 @@
 		1A1FDD2D24F85A840094EFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1FDD3324F85B480094EFBE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1A1FDD3524F908400094EFBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A9492C825308459006A9E60 /* TownsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownsViewModel.swift; sourceTree = "<group>"; };
 		1AD398AC251E92C900922ED9 /* towns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = towns.json; sourceTree = "<group>"; };
 		1AD398B3251FEB6F00922ED9 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
 		1AD398B6251FEC4E00922ED9 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				1AD398C025214E3600922ED9 /* LocalData */,
 				1AD398B5251FEC2F00922ED9 /* Utils */,
 				1AD398B0251FEB2A00922ED9 /* Models */,
+				1A9492C725308432006A9E60 /* ViewModels */,
 				1AE00DE92523D77800C5EA91 /* Controllers */,
 				1A1FDD1F24F85A810094EFBE /* AppDelegate.swift */,
 				1A1FDD2124F85A810094EFBE /* SceneDelegate.swift */,
@@ -86,6 +89,14 @@
 				1A1FDD2D24F85A840094EFBE /* Info.plist */,
 			);
 			path = Euskadi;
+			sourceTree = "<group>";
+		};
+		1A9492C725308432006A9E60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A9492C825308459006A9E60 /* TownsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		1AD398B0251FEB2A00922ED9 /* Models */ = {
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */,
+				1A9492C925308459006A9E60 /* TownsViewModel.swift in Sources */,
 				1A1FDD2424F85A820094EFBE /* TownsListViewController.swift in Sources */,
 				1A1FDD2024F85A810094EFBE /* AppDelegate.swift in Sources */,
 				1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */,

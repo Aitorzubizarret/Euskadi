@@ -11,12 +11,8 @@ import UIKit
 class TownsListViewController: UIViewController {
 
     // MARK: - Properties
+    var townsViewModel: TownsViewModel = TownsViewModel()
     var townsTableView: TableView?
-    var townsLocalData: Provinces? {
-        didSet {
-            self.addTownsTableView(data: self.townsLocalData!)
-        }
-    }
     
     // MARK: - Methods
     override func viewDidLoad() {
@@ -25,25 +21,22 @@ class TownsListViewController: UIViewController {
         // Navigation bar title.
         self.title = "Euskadi"
         
-        self.getTownsLocalData()
-        
+        self.bind()
     }
     
     ///
-    /// Reads the local 'towns' JSON file and saves the data in 'townsLocalData'.
+    /// Gets new data from the ViewModel.
     ///
-    private func getTownsLocalData() {
-        jsonReader(filename: "towns") { (success, data) in
-            DispatchQueue.main.async {
-                if success, let receivedData = data {
-                    self.townsLocalData = receivedData
-                }
+    private func bind() {
+        self.townsViewModel.binding = {
+            if let provincesData = self.townsViewModel.townsList {
+                self.addTownsTableView(data: provincesData)
             }
         }
     }
     
     ///
-    /// Adds the TableViews view to our view.
+    /// Adds the TableViews view with data to our view.
     ///
     private func addTownsTableView(data: Provinces) {
         
