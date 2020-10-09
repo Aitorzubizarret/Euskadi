@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TownsListViewController: UIViewController {
 
     // MARK: - Properties
     var townsTableView: TableView?

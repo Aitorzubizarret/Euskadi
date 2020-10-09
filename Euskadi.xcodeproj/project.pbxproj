@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A1FDD2024F85A810094EFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD1F24F85A810094EFBE /* AppDelegate.swift */; };
 		1A1FDD2224F85A820094EFBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2124F85A810094EFBE /* SceneDelegate.swift */; };
-		1A1FDD2424F85A820094EFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2324F85A820094EFBE /* ViewController.swift */; };
+		1A1FDD2424F85A820094EFBE /* TownsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2324F85A820094EFBE /* TownsListViewController.swift */; };
 		1A1FDD2724F85A820094EFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2524F85A820094EFBE /* Main.storyboard */; };
 		1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2824F85A840094EFBE /* Assets.xcassets */; };
 		1A1FDD2C24F85A840094EFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FDD2A24F85A840094EFBE /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		1A1FDD1C24F85A810094EFBE /* Euskadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euskadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1FDD1F24F85A810094EFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A1FDD2124F85A810094EFBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A1FDD2324F85A820094EFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A1FDD2324F85A820094EFBE /* TownsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownsListViewController.swift; sourceTree = "<group>"; };
 		1A1FDD2624F85A820094EFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A1FDD2824F85A840094EFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1FDD2B24F85A840094EFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		1AE00DE92523D77800C5EA91 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1A1FDD2324F85A820094EFBE /* ViewController.swift */,
+				1A1FDD2324F85A820094EFBE /* TownsListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */,
-				1A1FDD2424F85A820094EFBE /* ViewController.swift in Sources */,
+				1A1FDD2424F85A820094EFBE /* TownsListViewController.swift in Sources */,
 				1A1FDD2024F85A810094EFBE /* AppDelegate.swift in Sources */,
 				1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */,
 				1A1FDD2224F85A820094EFBE /* SceneDelegate.swift in Sources */,

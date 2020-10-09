@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Navigation controller for iOS 12 and lower.
-        let viewController = ViewController()
+        let viewController = TownsListViewController()
         let navigation = UINavigationController(rootViewController: viewController)
         
         let frame = UIScreen.main.bounds
