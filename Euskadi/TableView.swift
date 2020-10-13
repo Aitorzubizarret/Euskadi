@@ -8,15 +8,19 @@
 
 import UIKit
 
+protocol TableViewActionsDelegate {
+    func rowTapped(indexPath: IndexPath)
+}
+
 class TableView: NSObject {
     
     // MARK: - Properties
     let cellName: String = "cell"
     private var tableView: UITableView?
     public var townsData: Provinces?
+    public var actionsDelegate: TableViewActionsDelegate?
     
     // MARK: - Methods
-    
     ///
     /// Creates the UITableView with the received size, and registers a UITableViewCell for the table.
     ///
@@ -55,8 +59,8 @@ class TableView: NSObject {
     }
 }
 
+// MARK: - Extension : UITableViewDataSource
 extension TableView: UITableViewDataSource {
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         if let data = self.townsData {
             return data.provinces.count
@@ -93,4 +97,11 @@ extension TableView: UITableViewDataSource {
     }
 }
 
-extension TableView: UITableViewDelegate {}
+// MARK: - Extension : UITableViewDelegate
+extension TableView: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let delegate = self.actionsDelegate {
+            delegate.rowTapped(indexPath: indexPath)
+        }
+    }
+}

@@ -13,6 +13,7 @@ class TownsListViewController: UIViewController {
     // MARK: - Properties
     var townsViewModel: TownsViewModel = TownsViewModel()
     var townsTableView: TableView?
+    var detailVC: TownDetailViewController?
     
     // MARK: - Methods
     override func viewDidLoad() {
@@ -43,6 +44,9 @@ class TownsListViewController: UIViewController {
         // Creates the Object.
         self.townsTableView = TableView()
         
+        // Sets this class as the delegate.
+        self.townsTableView?.actionsDelegate = self
+        
         // Sends the data to the object.
         self.townsTableView?.townsData = data
         
@@ -52,5 +56,26 @@ class TownsListViewController: UIViewController {
         // Adds the view received from the object TableView.
         self.view.addSubview(table.getTableView(size: self.view.bounds))
     }
+}
 
+// MARK: - Extension : TableViewActionsDelegate
+extension TownsListViewController: TableViewActionsDelegate {
+    func rowTapped(indexPath: IndexPath) {
+        let provinceSection: Int = indexPath.section
+        let townRow: Int = indexPath.row
+        
+        // Creates the TownDetailViewController.
+        self.detailVC = TownDetailViewController(nibName: "TownDetailViewController", bundle: nil)
+        
+        // Gets data from the ViewModel and passes to the new ViewController.
+        if let townList = self.townsViewModel.townsList {
+            let townName: String = townList.provinces[provinceSection].towns[townRow].name
+            self.detailVC?.townName = townName
+        }
+        
+        // Checks the Navigation Controller and presents the new view controller.
+        if let nav = self.navigationController {
+            nav.pushViewController(self.detailVC!, animated: true)
+        }
+    }
 }
