@@ -15,14 +15,14 @@ class TownDetailViewController: UIViewController {
     
     // MARK: - Properties
     weak var coordinator: MainCoordinator?
-    public var townName: String?
+    public var town: Town?
     
     // MARK: - Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let name = self.townName {
-            self.setTownName(name: name)
+        if let thisTown = self.town {
+            self.setTownName(name: thisTown.name)
         }
     }
     

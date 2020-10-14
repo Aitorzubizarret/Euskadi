@@ -42,7 +42,7 @@ class MainCoordinator: Coordinator {
     func presentTownDetailVC(town: Town) {
         let townDetail: TownDetailViewController = TownDetailViewController()
         townDetail.coordinator = self
-        townDetail.townName = town.name
+        townDetail.town = town
         navigationController.pushViewController(townDetail, animated: true)
     }
 }
