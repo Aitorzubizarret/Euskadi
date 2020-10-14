@@ -14,6 +14,7 @@ class TownDetailViewController: UIViewController {
     @IBOutlet weak var townNameLabel: UILabel!
     
     // MARK: - Properties
+    weak var coordinator: MainCoordinator?
     public var townName: String?
     
     // MARK: - Methods

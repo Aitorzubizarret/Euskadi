@@ -61,22 +61,19 @@ class TownsListViewController: UIViewController {
 
 // MARK: - Extension : TableViewActionsDelegate
 extension TownsListViewController: TableViewActionsDelegate {
+    
+    ///
+    /// Gets the Town object and uses MainCoordinator to present the detail view controller after the user taps on a row in the town list.
+    ///
     func rowTapped(indexPath: IndexPath) {
         let provinceSection: Int = indexPath.section
         let townRow: Int = indexPath.row
         
-        // Creates the TownDetailViewController.
-        self.detailVC = TownDetailViewController(nibName: "TownDetailViewController", bundle: nil)
-        
-        // Gets data from the ViewModel and passes to the new ViewController.
+        // Gets data from the ViewModel and calls MainCoordinator to present the detail view controller.
         if let townList = self.townsViewModel.townsList {
-            let townName: String = townList.provinces[provinceSection].towns[townRow].name
-            self.detailVC?.townName = townName
-        }
-        
-        // Checks the Navigation Controller and presents the new view controller.
-        if let nav = self.navigationController {
-            nav.pushViewController(self.detailVC!, animated: true)
+            let town: Town = townList.provinces[provinceSection].towns[townRow]
+            
+            self.coordinator?.presentTownDetailVC(town: town)
         }
     }
 }

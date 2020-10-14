@@ -35,4 +35,14 @@ class MainCoordinator: Coordinator {
         townsList.coordinator = self
         navigationController.pushViewController(townsList, animated: true)
     }
+    
+    ///
+    /// Creates and presents TownDetailViewController.
+    ///
+    func presentTownDetailVC(town: Town) {
+        let townDetail: TownDetailViewController = TownDetailViewController()
+        townDetail.coordinator = self
+        townDetail.townName = town.name
+        navigationController.pushViewController(townDetail, animated: true)
+    }
 }
