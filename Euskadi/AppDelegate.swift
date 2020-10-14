@@ -11,17 +11,26 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var coordinator: MainCoordinator?
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // Navigation controller for iOS 12 and lower.
-        let viewController = TownsListViewController()
-        let navigation = UINavigationController(rootViewController: viewController)
+        ///
+        /// Coordinator Pattern for iOS 12 and lower versions.
+        ///
         
+        // Creates and initializes the Navigation Controller.
+        let navigationController: UINavigationController = UINavigationController()
+        
+        // Creates the Main Coordinator with the Navigation Controller, and starts it.
+        coordinator = MainCoordinator(navigationController: navigationController)
+        coordinator?.start()
+        
+        // Creates the window and adds the navigation controller as the root view.
         let frame = UIScreen.main.bounds
         window = UIWindow(frame: frame)
-        window!.rootViewController = navigation
+        window!.rootViewController = navigationController
         window!.makeKeyAndVisible()
         
         return true

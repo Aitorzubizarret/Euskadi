@@ -11,6 +11,7 @@ import UIKit
 class TownsListViewController: UIViewController {
 
     // MARK: - Properties
+    weak var coordinator: MainCoordinator?
     var townsViewModel: TownsViewModel = TownsViewModel()
     var townsTableView: TableView?
     var detailVC: TownDetailViewController?

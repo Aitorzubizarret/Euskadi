@@ -11,22 +11,32 @@ import UIKit
 @available (iOS 13, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+    var coordinator: MainCoordinator?
     var window: UIWindow?
-
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
-        // Navigation controller for iOS 13+.
+        ///
+        /// Coordinator Pattern for iOS 13 and newer versions.
+        ///
+        
+        // Converts the received Scene to UIWindowScene.
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        window?.windowScene = windowScene
+        // Creates and initializes the Navigation Controller.
+        let navigationController: UINavigationController = UINavigationController()
         
-        let viewController = TownsListViewController()
-        let navigation = UINavigationController(rootViewController: viewController)
-        window?.rootViewController = navigation
+        // Creates the Main Coordinator with the Navigation Controller, and starts it.
+        coordinator = MainCoordinator(navigationController: navigationController)
+        coordinator?.start()
+        
+        // Creates the window and adds the navigation controller as the root view.
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 
