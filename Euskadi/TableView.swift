@@ -16,6 +16,7 @@ class TableView: NSObject {
     
     // MARK: - Properties
     let cellName: String = "cell"
+    let townCellName: String = "townCell"
     private var tableView: UITableView?
     public var townsData: Provinces?
     public var actionsDelegate: TableViewActionsDelegate?
@@ -34,7 +35,9 @@ class TableView: NSObject {
         self.tableView?.dataSource = self
         
         // Registers the cell.
-        self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: self.cellName)
+        let cellNib: UINib = UINib(nibName: "TownCell", bundle: nil)
+        self.tableView?.register(cellNib, forCellReuseIdentifier: self.townCellName)
+        self.tableView?.rowHeight = 77.0
     }
     
     ///
@@ -88,11 +91,12 @@ extension TableView: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cellText: String = ""
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: self.cellName, for: indexPath)
+        let cell: TownCell = tableView.dequeueReusableCell(withIdentifier: self.townCellName, for: indexPath) as! TownCell
         if let data = self.townsData {
             cellText = data.provinces[indexPath.section].towns[indexPath.row].name
         }
-        cell.textLabel?.text = cellText
+        
+        cell.displayValues(townName: cellText)
         return cell
     }
 }
