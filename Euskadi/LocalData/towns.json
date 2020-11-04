@@ -426,7 +426,7 @@
                 },
                 {
                     "postalCode": ["48800"],
-                    "name": "Balmaseda / Valmaseda2​3​",
+                    "name": "Balmaseda / Valmaseda",
                     "locationLat": 43.195833,
                     "locationLng": -3.192778
                 },
@@ -995,532 +995,538 @@
             "name": "Gipuzkoa",
             "towns": [
                 {
-                    "postalCode": [""],
-                    "name": "Abaltzisketa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20269"],
+                    "name": "Abaltzisketa / Abalcisqueta",
+                    "locationLat": 43.047842,
+                    "locationLng": -2.105219
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20150"],
                     "name": "Aduna",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.203817,
+                    "locationLng": -2.050099
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Aia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20809"],
+                    "name": "Aia / Aya",
+                    "locationLat": 43.236547,
+                    "locationLng": -2.148667
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20749"],
                     "name": "Aizarnazabal",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.255792,
+                    "locationLng": -2.236299
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Albiztur",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20495"],
+                    "name": "Albiztur / Albíztur",
+                    "locationLat": 43.129407,
+                    "locationLng": -2.137323
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Alegia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20260"],
+                    "name": "Alegia / Alegría de Oria",
+                    "locationLat": 43.100435,
+                    "locationLng": -2.098358
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Alkiza",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20494"],
+                    "name": "Alkiza / Alquiza",
+                    "locationLat": 43.172585,
+                    "locationLng": -2.10899
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Altzaga",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20248"],
+                    "name": "Altzaga / Alzaga",
+                    "locationLat": 43.064167,
+                    "locationLng": -2.154722
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Altzo",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20268"],
+                    "name": "Altzo / Alzo",
+                    "locationLat": 43.100403,
+                    "locationLng": -2.084208
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Amezketa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20268"],
+                    "name": "Amezketa / Amézqueta",
+                    "locationLat": 43.049303,
+                    "locationLng": -2.088071
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Andoain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20140"],
+                    "name": "Andoain / Andoáin",
+                    "locationLat": 43.218334,
+                    "locationLng": -2.019888
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20270"],
                     "name": "Anoeta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.162222,
+                    "locationLng": -2.07
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Antzuola",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20577"],
+                    "name": "Antzuola / Anzuola",
+                    "locationLat": 43.099078,
+                    "locationLng": -2.380624
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20248"],
                     "name": "Arama",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.063467,
+                    "locationLng": -2.165582
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Aretxabaleta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20550"],
+                    "name": "Aretxabaleta / Arechavaleta",
+                    "locationLat": 43.036111,
+                    "locationLng": -2.504444
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20159"],
                     "name": "Asteasu",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.192831,
+                    "locationLng": -2.095361
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20115"],
                     "name": "Astigarraga",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.281568,
+                    "locationLng": -1.947477
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20211"],
                     "name": "Ataun",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 42.978104,
+                    "locationLng": -2.181277
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Azkoitia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20720"],
+                    "name": "Azkoitia / Azcoitia",
+                    "locationLat": 43.179167,
+                    "locationLng": -2.310556
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20730"],
                     "name": "Azpeitia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.181944,
+                    "locationLng": -2.265278
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20259"],
                     "name": "Baliarrain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.069419,
+                    "locationLng": -2.128391
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Beasain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20200"],
+                    "name": "Beasain / Beasáin",
+                    "locationLat": 43.047327,
+                    "locationLng": -2.203287
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20739"],
                     "name": "Beizama",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.134156,
+                    "locationLng": -2.200274
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Belauntza",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20491"],
+                    "name": "Belauntza / Belaunza",
+                    "locationLat": 43.135027,
+                    "locationLng": -2.050339
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Berastegi",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20492"],
+                    "name": "Berastegi / Berástegui",
+                    "locationLat": 43.12415,
+                    "locationLng": -1.979159
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Bergara",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20570", "20578", "20579", "20580"],
+                    "name": "Bergara / Vergara",
+                    "locationLat": 43.117544,
+                    "locationLng": -2.413345
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20493"],
                     "name": "Berrobi",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.145581,
+                    "locationLng": -2.026642
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Bidegoian",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20496"],
+                    "name": "Bidania-Goiatz / Bidegoian / Bidegoyan",
+                    "locationLat": 43.140833,
+                    "locationLng": -2.158333
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Deba",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20820"],
+                    "name": "Deba / Deva",
+                    "locationLat": 43.295278,
+                    "locationLng": -2.35
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20600"],
                     "name": "Eibar",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.184284,
+                    "locationLng": -2.473275
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Elduain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20493"],
+                    "name": "Elduain / Elduayen",
+                    "locationLat": 43.140688,
+                    "locationLng": -2.0007
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Elgeta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20690"],
+                    "name": "Elgeta / Elgueta",
+                    "locationLat": 43.136637,
+                    "locationLng": -2.487682
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Elgoibar",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20870"],
+                    "name": "Elgoibar / Elgóibar",
+                    "locationLat": 43.214167,
+                    "locationLng": -2.416944
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Errenteria",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20100"],
+                    "name": "Errenteria / Rentería",
+                    "locationLat": 43.312527,
+                    "locationLng": -1.898613
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Errezil",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20737"],
+                    "name": "Errezil / Régil",
+                    "locationLat": 43.165,
+                    "locationLng": -2.174167
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Eskoriatza",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20540"],
+                    "name": "Eskoriatza / Escoriaza",
+                    "locationLat": 43.016837,
+                    "locationLng": -2.528346
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Ezkio-Itsaso",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20709"],
+                    "name": "Ezkio / Ezquioga",
+                    "locationLat": 43.083333,
+                    "locationLng": -2.266667
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Gabiria",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20217"],
+                    "name": "Gabiria / Gaviria",
+                    "locationLat": 43.050254,
+                    "locationLng": -2.279146
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20491"],
                     "name": "Gaztelu",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.116445,
+                    "locationLng": -2.022829
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Gaínza",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20248"],
+                    "name": "Gaintza / Gaínza",
+                    "locationLat": 43.053056,
+                    "locationLng": -2.1325
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Getaria",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20808"],
+                    "name": "Getaria / Guetaria",
+                    "locationLat": 43.304456,
+                    "locationLng": -2.203737
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20120"],
                     "name": "Hernani",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.266165,
+                    "locationLng": -1.974917
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20494"],
                     "name": "Hernialde",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.154495,
+                    "locationLng": -2.085194
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Hondarribia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20280"],
+                    "name": "Hondarribia / Fuenterrabía",
+                    "locationLat": 43.362437,
+                    "locationLng": -1.791478
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20400"],
                     "name": "Ibarra",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.130833,
+                    "locationLng": -2.061667
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Idiazabal",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20213"],
+                    "name": "Idiazabal / Idiazábal",
+                    "locationLat": 43.010679,
+                    "locationLng": -2.233613
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Ikaztegieta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20267"],
+                    "name": "Ikaztegieta / Icazteguieta",
+                    "locationLat": 43.094722,
+                    "locationLng": -2.125278
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20271"],
                     "name": "Irura",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.167534,
+                    "locationLng": -2.067222
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Irún",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20300", "20301", "20302", "20303", "20304", "20305"],
+                    "name": "Irun / Irún",
+                    "locationLat": 43.337806,
+                    "locationLng": -1.788806
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Itsasondo",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20709"],
+                    "name": "Itsaso / Ichaso",
+                    "locationLat": 43.0725,
+                    "locationLng": -2.255278
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20249"],
+                    "name": "Itsasondo / Isasondo",
+                    "locationLat": 43.067827,
+                    "locationLng": -2.167236
+                },
+                {
+                    "postalCode": ["20159"],
                     "name": "Larraul",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.187934,
+                    "locationLng": -2.102396
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20160"],
                     "name": "Lasarte-Oria",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.267778,
+                    "locationLng": -2.02
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Lazkao",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20210"],
+                    "name": "Lazkao / Lazcano",
+                    "locationLat": 43.034722,
+                    "locationLng": -2.1875
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20491"],
                     "name": "Leaburu",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.116667,
+                    "locationLng": -2.05
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20230"],
                     "name": "Legazpia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.055,
+                    "locationLng": -2.335
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20250"],
                     "name": "Legorreta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.084893,
+                    "locationLng": -2.148622
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Leintz-Gatzaga",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20530"],
+                    "name": "Leintz-Gatzaga / Salinas de Léniz",
+                    "locationLat": 42.986891,
+                    "locationLng": -2.568741
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20100"],
                     "name": "Lezo",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.321111,
+                    "locationLng": -1.898889
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Lizartza",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20490"],
+                    "name": "Lizartza / Lizarza",
+                    "locationLat": 43.103611,
+                    "locationLng": -2.034167
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20850"],
                     "name": "Mendaro",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.25,
+                    "locationLng": -2.383333
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Arrasate",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20500"],
+                    "name": "Arrasate / Mondragón",
+                    "locationLat": 43.065556,
+                    "locationLng": -2.49
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20214"],
                     "name": "Mutiloa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.022039,
+                    "locationLng": -2.272751
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Mutriku",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20830"],
+                    "name": "Mutriku / Motrico",
+                    "locationLat": 43.307222,
+                    "locationLng": -2.385
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Olaberria",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20212"],
+                    "name": "Olaberria / Olaberría",
+                    "locationLat": 43.026928,
+                    "locationLng": -2.203662
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Ordizia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20240"],
+                    "name": "Ordizia / Villafranca de Ordizia",
+                    "locationLat": 43.054722,
+                    "locationLng": -2.178333
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Orendain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20269"],
+                    "name": "Orendain / Orendáin",
+                    "locationLat": 43.079499,
+                    "locationLng": -2.114138
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Orexa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20490"],
+                    "name": "Orexa / Oreja",
+                    "locationLat": 43.094236,
+                    "locationLng": -2.011319
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20810"],
                     "name": "Orio",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.276049,
+                    "locationLng": -2.127262
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Ormaiztegi",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20216"],
+                    "name": "Ormaiztegi / Ormáiztegui",
+                    "locationLat": 43.043126,
+                    "locationLng": -2.254814
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Oiartzun",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20180"],
+                    "name": "Oiartzun / Oyarzun",
+                    "locationLat": 43.299167,
+                    "locationLng": -1.857778
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Oñati",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20560", "20567", "20568", "20569"],
+                    "name": "Oñati / Oñate",
+                    "locationLat": 43.032778,
+                    "locationLng": -2.411667
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Pasaia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20110"],
+                    "name": "Pasaia / Pasajes",
+                    "locationLat": 43.326389,
+                    "locationLng": -1.919167
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Placencia de las Armas",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20590"],
+                    "name": "Soraluze / Placencia de las Armas",
+                    "locationLat": 43.174778,
+                    "locationLng": -2.411722
                 },
                 {
-                    "postalCode": [""],
-                    "name": "San Sebastián",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20001" , "20002" , "20003" , "20004" , "20005" , "20006" , "20007" , "20008" , "20009" , "20010" , "20011" , "20012" , "20013" , "20014" , "20015" , "20016" , "20017" , "20018"],
+                    "name": "Donostia / San Sebastián",
+                    "locationLat": 43.32,
+                    "locationLng": -1.98
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20214"],
                     "name": "Segura",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.009086,
+                    "locationLng": -2.252792
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20400"],
                     "name": "Tolosa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.13861,
+                    "locationLng": -2.072356
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20130"],
                     "name": "Urnieta",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.24687,
+                    "locationLng": -1.991705
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Urretxu",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20700"],
+                    "name": "Urretxu / Villarreal de Urrechua",
+                    "locationLat": 43.091667,
+                    "locationLng": -2.313889
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Usurbil",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20170"],
+                    "name": "Usurbil / Usúrbil",
+                    "locationLat": 43.266667,
+                    "locationLng": -2.05
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Villabona",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20150"],
+                    "name": "Amasa / Villabona",
+                    "locationLat": 43.188056,
+                    "locationLng": -2.0525
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Zaldibia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20247"],
+                    "name": "Zaldibia / Zaldivia",
+                    "locationLat": 43.036389,
+                    "locationLng": -2.149722
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Zarautz",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20800"],
+                    "name": "Zarautz / Zarauz",
+                    "locationLat": 43.286316,
+                    "locationLng": -2.174801
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Zegama",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20215"],
+                    "name": "Zegama / Cegama",
+                    "locationLat": 42.975809,
+                    "locationLng": -2.29036
                 },
                 {
-                    "postalCode": [""],
-                    "name": "Zerain",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "postalCode": ["20214"],
+                    "name": "Zerain / Ceráin",
+                    "locationLat": 43.012539,
+                    "locationLng": -2.273373
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20740"],
                     "name": "Zestoa",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.240106,
+                    "locationLng": -2.258553
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20159"],
                     "name": "Zizurkil",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.2,
+                    "locationLng": -2.077222
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20750"],
                     "name": "Zumaia",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.283333,
+                    "locationLng": -2.25
                 },
                 {
-                    "postalCode": [""],
+                    "postalCode": ["20700"],
                     "name": "Zumarraga",
-                    "locationLat": 0,
-                    "locationLng": 0
+                    "locationLat": 43.083056,
+                    "locationLng": -2.316667
                 }
             ]
         }
