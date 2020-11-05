@@ -13,4 +13,5 @@ struct Town: Codable {
     let name: String
     let locationLat: Double
     let locationLng: Double
+    let image: String
 }

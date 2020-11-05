@@ -31,9 +31,14 @@ class TownCell: UITableViewCell {
     ///
     /// Gets values and loads them in the UI elements.
     ///
-    public func displayValues(townName: String) {
+    public func displayValues(townName: String, townImage: String) {
         // Town photo.
-        self.townImage.image = UIImage(named: "default-town")
+        if townImage != "" {
+            self.townImage.image = UIImage(named: townImage)
+        } else {
+            self.townImage.image = UIImage(named: "no-picture")
+        }
+        
         
         // Town name.
         self.townNameLabel.text = townName

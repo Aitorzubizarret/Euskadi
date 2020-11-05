@@ -89,14 +89,16 @@ extension TableView: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cellText: String = ""
+        var cellTownName: String = ""
+        var cellTownImage: String = ""
         
         let cell: TownCell = tableView.dequeueReusableCell(withIdentifier: self.townCellName, for: indexPath) as! TownCell
         if let data = self.townsData {
-            cellText = data.provinces[indexPath.section].towns[indexPath.row].name
+            cellTownName = data.provinces[indexPath.section].towns[indexPath.row].name
+            cellTownImage = data.provinces[indexPath.section].towns[indexPath.row].image
         }
         
-        cell.displayValues(townName: cellText)
+        cell.displayValues(townName: cellTownName, townImage: cellTownImage)
         return cell
     }
 }

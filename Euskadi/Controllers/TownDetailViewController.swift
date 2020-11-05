@@ -32,7 +32,7 @@ class TownDetailViewController: UIViewController {
         
         // Checks if the VC received a Town.
         if let thisTown = self.town {
-            self.setTownImage()
+            self.setTownImage(imageName: thisTown.image)
             self.setTownName(name: thisTown.name)
         }
     }
@@ -46,11 +46,16 @@ class TownDetailViewController: UIViewController {
     }
     
     ///
-    /// WILL Set the town image.
+    /// Sets the town image or a default one in case there is no picture of the town.
     ///
-    private func setTownImage() {
+    private func setTownImage(imageName: String) {
         self.detailImage.contentMode = .scaleAspectFill
-        self.detailImage.image = UIImage(named: "default-town")
+        
+        if imageName != "" {
+            self.detailImage.image = UIImage(named: imageName)
+        } else {
+            self.detailImage.image = UIImage(named: "no-picture")
+        }
     }
     
     ///
