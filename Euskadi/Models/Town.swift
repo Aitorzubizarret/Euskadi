@@ -9,6 +9,7 @@
 import Foundation
 
 struct Town: Codable {
+    let id: Int
     let postalCode: [String]
     let name: String
     let locationLat: Double
