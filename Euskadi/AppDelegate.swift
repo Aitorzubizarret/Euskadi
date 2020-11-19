@@ -20,17 +20,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /// Coordinator Pattern for iOS 12 and lower versions.
         ///
         
-        // Creates and initializes the Navigation Controller.
+        // Creates and initializes the Navigation Controller and the TabBar Controller.
+        let tabBarController: UITabBarController = UITabBarController()
         let navigationController: UINavigationController = UINavigationController()
         
-        // Creates the Main Coordinator with the Navigation Controller, and starts it.
-        coordinator = MainCoordinator(navigationController: navigationController)
+        // Creates the Main Coordinator with the Navigation Controller and the TabBar Controller, and starts it.
+        coordinator = MainCoordinator(tabBarController: tabBarController, navigationController: navigationController)
         coordinator?.start()
         
-        // Creates the window and adds the navigation controller as the root view.
+        // Creates the window and adds the TabBar controller as the root view.
         let frame = UIScreen.main.bounds
         window = UIWindow(frame: frame)
-        window!.rootViewController = navigationController
+        window!.rootViewController = tabBarController
         window!.makeKeyAndVisible()
         
         return true

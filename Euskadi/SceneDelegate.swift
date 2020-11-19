@@ -26,17 +26,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Converts the received Scene to UIWindowScene.
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        // Creates and initializes the Navigation Controller.
+        // Creates and initializes the Navigation Controller and the TabBar Controller.
+        let tabBarController: UITabBarController = UITabBarController()
         let navigationController: UINavigationController = UINavigationController()
         
-        // Creates the Main Coordinator with the Navigation Controller, and starts it.
-        coordinator = MainCoordinator(navigationController: navigationController)
+        // Creates the Main Coordinator with the Navigation Controller and the TabBar Controller, and starts it.
+        coordinator = MainCoordinator(tabBarController: tabBarController, navigationController: navigationController)
         coordinator?.start()
         
-        // Creates the window and adds the navigation controller as the root view.
+        // Creates the window and adds the TabBar controller as the root view.
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = navigationController
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
     }
 
