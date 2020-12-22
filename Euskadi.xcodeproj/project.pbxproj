@@ -30,6 +30,8 @@
 		1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398B8251FEE6400922ED9 /* Provinces.swift */; };
 		1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398BC2520C2A900922ED9 /* TableView.swift */; };
 		1AD398BF25214CB200922ED9 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398BE25214CB200922ED9 /* Town.swift */; };
+		42827371259295E00041E7D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42827370259295E00041E7D9 /* Settings.bundle */; };
+		42827374259295F60041E7D9 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42827373259295F60041E7D9 /* SettingsBundleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		1AD398B8251FEE6400922ED9 /* Provinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provinces.swift; sourceTree = "<group>"; };
 		1AD398BC2520C2A900922ED9 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		1AD398BE25214CB200922ED9 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		42827370259295E00041E7D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		42827373259295F60041E7D9 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				1A1FDD2124F85A810094EFBE /* SceneDelegate.swift */,
 				1AD398BC2520C2A900922ED9 /* TableView.swift */,
 				1A1FDD2D24F85A840094EFBE /* Info.plist */,
+				42827370259295E00041E7D9 /* Settings.bundle */,
+				42827373259295F60041E7D9 /* SettingsBundleHelper.swift */,
 			);
 			path = Euskadi;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				1A1FDD2924F85A840094EFBE /* Assets.xcassets in Resources */,
 				1A9223F12535DE7500F1FC53 /* TownDetailViewController.xib in Resources */,
 				1A1FDD2724F85A820094EFBE /* Main.storyboard in Resources */,
+				42827371259295E00041E7D9 /* Settings.bundle in Resources */,
 				1AD398AD251E92C900922ED9 /* towns.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42827374259295F60041E7D9 /* SettingsBundleHelper.swift in Sources */,
 				1AC89DF5256721F9008C26B9 /* MainTabBarViewController.swift in Sources */,
 				1AD398B9251FEE6400922ED9 /* Provinces.swift in Sources */,
 				1A49EA6A25372CBB009579ED /* MainCoordinator.swift in Sources */,
