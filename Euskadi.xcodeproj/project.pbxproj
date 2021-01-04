@@ -32,6 +32,8 @@
 		1AD398BF25214CB200922ED9 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD398BE25214CB200922ED9 /* Town.swift */; };
 		42827371259295E00041E7D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42827370259295E00041E7D9 /* Settings.bundle */; };
 		42827374259295F60041E7D9 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42827373259295F60041E7D9 /* SettingsBundleHelper.swift */; };
+		42868D3025A3ABDE004C4A54 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42868D2F25A3ABDE004C4A54 /* NewsViewModel.swift */; };
+		42868D3325A3AC49004C4A54 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42868D3225A3AC49004C4A54 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		1AD398BE25214CB200922ED9 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		42827370259295E00041E7D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		42827373259295F60041E7D9 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
+		42868D2F25A3ABDE004C4A54 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		42868D3225A3AC49004C4A54 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				1A9492C825308459006A9E60 /* TownsViewModel.swift */,
+				42868D2F25A3ABDE004C4A54 /* NewsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				1AD398B3251FEB6F00922ED9 /* Province.swift */,
 				1AD398B8251FEE6400922ED9 /* Provinces.swift */,
 				1AD398BE25214CB200922ED9 /* Town.swift */,
+				42868D3225A3AC49004C4A54 /* News.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 				1A1FDD2424F85A820094EFBE /* TownsListViewController.swift in Sources */,
 				1A9223F02535DE7500F1FC53 /* TownDetailViewController.swift in Sources */,
 				1A1FDD2024F85A810094EFBE /* AppDelegate.swift in Sources */,
+				42868D3025A3ABDE004C4A54 /* NewsViewModel.swift in Sources */,
 				1AD398BD2520C2A900922ED9 /* TableView.swift in Sources */,
 				1A49EA6825372B5E009579ED /* Coordinator.swift in Sources */,
+				42868D3325A3AC49004C4A54 /* News.swift in Sources */,
 				1A1FDD2224F85A820094EFBE /* SceneDelegate.swift in Sources */,
 				1AD398BF25214CB200922ED9 /* Town.swift in Sources */,
 				1A9308C525507EC500CCC2A3 /* TownCell.swift in Sources */,
